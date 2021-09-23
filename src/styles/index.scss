@@ -1,0 +1,31 @@
+@import "../../node_modules/css-reset-and-normalize/scss/reset-and-normalize";
+
+body {
+  background-color: #545f7d;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+
+.score {
+  color: #fff;
+  &__title {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  &__player {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+}
+
+@import "./components/NamesPopup/NamesPopup";
+@import "./components/Square/Square";
+@import "./components/Board/Board";

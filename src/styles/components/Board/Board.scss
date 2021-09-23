@@ -1,0 +1,121 @@
+.board {
+  background: #a855c1;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-right: 50px;
+  position: relative;
+}
+
+.board.horizontal.top::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 70px;
+  left: 10%;
+  z-index: 1;
+}
+
+.board.horizontal.middle::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 230px;
+  left: 10%;
+  z-index: 1;
+}
+
+.board.horizontal.bottom::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 400px;
+  left: 10%;
+  z-index: 1;
+}
+
+.board.vertical.left::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 450px;
+
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 25px;
+  left: 75px;
+  z-index: 1;
+}
+
+.board.vertical.middle::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 450px;
+
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 25px;
+  left: 230px;
+  z-index: 1;
+}
+
+.board.vertical.right::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 450px;
+
+  background-color: #af3d38;
+  border-radius: 4px;
+  display: block;
+  top: 25px;
+  left: 385px;
+  z-index: 1;
+}
+
+.board.diagonal.left::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 500px;
+
+  background-color: #af3d38;
+  transform: rotate(-45deg);
+  border-radius: 4px;
+  display: block;
+  top: 0px;
+  left: 250px;
+  z-index: 1;
+}
+
+.board.diagonal.right::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 500px;
+
+  background-color: #af3d38;
+  transform: rotate(45deg);
+  border-radius: 4px;
+  display: block;
+  top: 0px;
+  right: 250px;
+  z-index: 1;
+}
