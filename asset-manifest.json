@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/maydster/tic-tac-toe/static/css/main.f3e20975.chunk.css",
+    "main.js": "/maydster/tic-tac-toe/static/js/main.37772541.chunk.js",
+    "main.js.map": "/maydster/tic-tac-toe/static/js/main.37772541.chunk.js.map",
+    "runtime-main.js": "/maydster/tic-tac-toe/static/js/runtime-main.793250e5.js",
+    "runtime-main.js.map": "/maydster/tic-tac-toe/static/js/runtime-main.793250e5.js.map",
+    "static/js/2.f7c65303.chunk.js": "/maydster/tic-tac-toe/static/js/2.f7c65303.chunk.js",
+    "static/js/2.f7c65303.chunk.js.map": "/maydster/tic-tac-toe/static/js/2.f7c65303.chunk.js.map",
+    "index.html": "/maydster/tic-tac-toe/index.html",
+    "static/css/main.f3e20975.chunk.css.map": "/maydster/tic-tac-toe/static/css/main.f3e20975.chunk.css.map",
+    "static/js/2.f7c65303.chunk.js.LICENSE.txt": "/maydster/tic-tac-toe/static/js/2.f7c65303.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.793250e5.js",
+    "static/js/2.f7c65303.chunk.js",
+    "static/css/main.f3e20975.chunk.css",
+    "static/js/main.37772541.chunk.js"
+  ]
+}
